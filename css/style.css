@@ -306,7 +306,7 @@ img {
 	/* flex: 1 0 auto; */
 }
 
-.info-item-dishes__rating_span {
+.info-item-dishes__number {
 	font-weight: 900;
 	font-size: 12px;
 	line-height: 1.5;
