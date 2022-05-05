@@ -228,9 +228,6 @@ img {
 
 .dishes__item {
 	min-width: 290px;
-	border-top-left-radius: 6px;
-	border-top-right-radius: 6px;
-	overflow: hidden;
 }
 
 .item-dishes {}
@@ -249,7 +246,6 @@ img {
 	border-top-left-radius: 6px;
 	border-top-right-radius: 6px;
 }
-
 
 .item-dishes__info {
 	padding: 30px 30px 24px;
