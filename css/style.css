@@ -224,6 +224,18 @@ img {
 .dishes__items {
 	flex: 1 1 33.333%;
 	padding: 0 15px;
+	position: relative;
+}
+
+.dishes__items::after {
+	content: '';
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: url('../img/dishes/ic_dishes2.svg') center / 24px 24px no-repeat, rgba(0, 0, 0, 0.3);
+	top: 24px;
+	right: 32px;
 }
 
 .dishes__item {
@@ -278,10 +290,19 @@ img {
 	display: flex;
 	margin-left: -6px;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .info-item-dishes__rating {
 	/* flex: 1 0 auto; */
+}
+
+.info-item-dishes__rating_span {
+	font-weight: 900;
+	font-size: 12px;
+	line-height: 1.5;
+	letter-spacing: 1.5px;
+	color: #B3B3B3;
 }
 
 .info-item-dishes__button {
